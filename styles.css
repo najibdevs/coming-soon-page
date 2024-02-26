@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+  min-height: 100vh;
+  text-align: center;
+}
+
+header {
+    margin-top: 50px;
+}
+header img {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  width: 70px;
+}
+
+.main h1 {
+  font-size: 40px;
+  font-weight: 100;
+  margin-bottom: 10px;
+  color: hsl(0, 0%, 59%);
+}
+
+.main h1 span {
+  font-weight: 600;
+  color: black;
+}
+
+p.subscribe {
+  margin-bottom: 30px;
+}
+
+.main input {
+  padding: 10px 20px;
+  width: 250px;
+  border-radius: 20px;
+  border: 1px solid hsl(0, 0%, 85%);
+  outline: none;
+}
+
+.btn {
+  background: hsl(223, 87%, 63%);
+  padding: 10px 40px;
+  color: white;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  border-radius: 22px;
+  box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background: hsl(223, 100%, 71%);
+}
+
+.image-container img {
+  width: 500px;
+  margin-top: 50px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.socials i {
+  color: hsl(223, 87%, 63%);
+  margin-right: 12px;
+  border-radius: 50%;
+  border: 1px solid hsl(0, 0%, 85%);
+  padding: 3px;
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: 0.5s;
+}
+
+.socials i:hover {
+  background-color: hsl(223, 87%, 63%);
+  color: white;
+}
+
+.main p {
+  color: hsl(0, 0%, 59%);
+}
+
+.input-error {
+  color: 2px solid red; /* Indicates error */
+}
+
+.input-valid {
+  border: 2px solid green; /* Indicates valid input */
+}
+
+@media (max-width: 700px) {
+  header img {
+    margin-top: 60px; /* Adjusted margin for smaller screens */
+    width: 50px;
+  }
+
+  .main h1 {
+    font-size: 24px; /* Smaller font size for smaller screens */
+  }
+
+  .image-container img {
+    width: 90%;
+    max-width: 400px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+
+  .email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main input,
+  .btn {
+    margin-bottom: 10px;
+    width: 85%;
+    max-width: 300px;
+    margin: 10px auto;
+  }
+}
