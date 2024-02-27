@@ -13,11 +13,11 @@ Users should be able to:
 
 ## Live Demo
 
-Live Site URL: [ping coming soon page]()
+Live Site URL: [ping coming soon page](https://coming-soon-page-nine-kappa.vercel.app/)
 
 # My Process
 
-# Built With
+## Built With
 
 - HTML
 - CSS
